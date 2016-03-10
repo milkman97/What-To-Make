@@ -74,6 +74,12 @@
                             <?php include('php/fruit/tropical.php');?>
                         </div>
                     </div>
+                    <div class="row">
+                        <h5 id="condiments" class="animated fadeInDown">Condiments</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Condiments1">
+                            <?php include('php/other/condiments.php');?>
+                        </div>
+                    </div>
                 </form>
                 <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
