@@ -1,0 +1,50 @@
+#types{
+    font-size: 17px;
+}
+#fruitsRow{
+    font-size: 17px;
+    display: none;
+}
+#categories{
+    font-size: 17px;
+    display: none;
+}
+#fruitDiv{
+    display: none;
+}
+#Berries1{
+    display: none;
+}
+#Pits1{
+    display: none;
+}
+#Core1{
+    display: none;
+}
+#Melons1{
+    display: none;
+}
+#Citrus1{
+    display: none;
+}
+#Tropical1{
+    display: none;
+}
+#vegtableDiv{
+    display: none;
+}
+#morevegtable{
+    display: none;
+}
+#liquidDiv{
+    display: none;
+}
+#otherDiv{
+    display: none;
+}
+#searchText{
+    font-size: 24px;
+}
+#titleText{
+    margin-left: 10px;
+}
