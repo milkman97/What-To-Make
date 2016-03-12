@@ -56,22 +56,22 @@
                     <div class="row">
                         <h5 id="fruitsRow" class="animated fadeInDown">Fruits</h5>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Berries1">
-                            <?php include('php/fruit/berries.php');?>
+                            <?php include('php/fruit/berries.php');?><br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Pits1">
-                            <?php include('php/fruit/pits.php');?>
+                            <?php include('php/fruit/pits.php');?><br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Core1">
-                            <?php include('php/fruit/cores.php');?>
+                            <?php include('php/fruit/cores.php');?><br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Melons1">
-                            <?php include('php/fruit/melons.php');?>
+                            <?php include('php/fruit/melons.php');?><br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Citrus1">
-                            <?php include('php/fruit/citrus.php');?>
+                            <?php include('php/fruit/citrus.php');?><br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Tropical1">
-                            <?php include('php/fruit/tropical.php');?>
+                            <?php include('php/fruit/tropical.php');?><br>
                         </div>
                     </div>
                     <div class="row">
