@@ -75,9 +75,15 @@
                         </div>
                     </div>
                     <div class="row">
-                        <h5 id="condiments" class="animated fadeInDown">Condiments</h5>
+                        <h5 id="Condiments2" class="animated fadeInDown">Condiments</h5>
                         <div class="col s12 m12 l12 animated fadeInDown" id="Condiments1">
                             <?php include('php/other/condiments.php');?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 id="Breads2" class="animated fadeInDown">Breads and Grains</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Breads1">
+                            <?php include('php/other/breads.php');?>
                         </div>
                     </div>
                 </form>

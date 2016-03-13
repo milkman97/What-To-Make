@@ -1,11 +1,18 @@
 #types{
     font-size: 17px;
 }
+#Breads1{
+    display: none;
+}
+#Breads2{
+    font-size: 17px;
+    display: none;
+}
 #fruitsRow{
     font-size: 17px;
     display: none;
 }
-#condiments{
+#Condiments2{
     font-size: 17px;
     display: none;
 }
