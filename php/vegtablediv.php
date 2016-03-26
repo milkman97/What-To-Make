@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfLiquids = array("Allium Vegetables", "Asparagus", "Brassica and Cruciferous Vegtetables", "Buckwheat Vegetables","Composite Vegetables", "Goosefoot and Amaranth Vegetables", "Gourd Vegtables", "Grass Family Vegetables", "Legumes Vegetables", "Mallow Vegetables", "Morning Glory Vegetables", "Nightshade Vegetables", "Umbelliferous Vegetables");
+    <?php $TypesOfLiquids = array("Bulbs","Flower","Fruit", "Fungi", "Leaves", "Roots", "Seeds", "Stems", "Tubers");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="HideOrUnhide(this.id,'<?php echo $value . "1"?>')" />
