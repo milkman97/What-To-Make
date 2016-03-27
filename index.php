@@ -75,6 +75,36 @@
                         </div>
                     </div>
                     <div class="row">
+                       <h5 id="vegetableRow" class="animated fadeInDown">Vegetables</h5>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Bulbs1">
+                            <?php include('php/vegetables/Bulbs.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Flower1">
+                            <?php include('php/vegetables/Flower.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Fruit1">
+                            <?php include('php/vegetables/Fruit.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Fungi1">
+                            <?php include('php/vegetables/Fungi.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Leaves1">
+                            <?php include('php/vegetables/Leaves.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Roots1">
+                            <?php include('php/vegetables/Roots.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Seeds1">
+                            <?php include('php/vegetables/Seeds.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Stems1">
+                            <?php include('php/vegetables/Stems.php');?><br>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Tubers1">
+                            <?php include('php/vegetables/Tubers.php');?><br>
+                        </div>
+                    </div>
+                    <div class="row">
                         <h5 id="Condiments2" class="animated fadeInDown">Condiments</h5>
                         <div class="col s12 m12 l12 animated fadeInDown" id="Condiments1">
                             <?php include('php/other/condiments.php');?>

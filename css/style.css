@@ -1,6 +1,37 @@
 #types{
     font-size: 17px;
 }
+#Stems1{
+    display: none;
+}
+#Tubers1{
+    display: none;
+}
+#Roots1{
+    display: none;
+}
+#Seeds1{
+    display: none;
+}
+#Fungi1{
+    display: none
+}
+#Leaves1{
+    display: none;
+}
+#Fruit1{
+    display: none;
+}
+#Flower1{
+    display: none;
+}
+#Bulbs1{
+    display: none;
+}
+#vegetableRow{
+    font-size: 17px;
+    display: none;
+}
 #Breads1{
     display: none;
 }
