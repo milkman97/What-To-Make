@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfCitrus = array("Oranges", "Tangerines", "Grapefruits", "Kumquats", "Lemons", "Limes");
+    <?php $TypesOfBerries = array("Oranges", "Tangerines", "Grapefruits", "Kumquats", "Lemons", "Limes");
     foreach ($TypesOfBerries as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" />

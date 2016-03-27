@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfFungis = array("Portabelllo Mushrooms","Truffle");
+    <?php $TypesOfLiquids = array("Portabelllo Mushrooms","Truffle");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="HideOrUnhide(this.id,'<?php echo $value . "1"?>')" />
