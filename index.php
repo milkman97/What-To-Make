@@ -115,6 +115,12 @@
                         <div class="col s10 m6 l2 animated fadeInDown" id="Sodas1">
                             <?php include('php/Liquids/SoftDrinks.php');?>
                         </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Milk1">
+                            <?php include('php/Liquids/Milk.php');?>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Oils1">
+                            <?php include('php/Liquids/Oil.php');?>
+                        </div>
                     </div>
                     <div class="row">
                         <h5 id="Condiments2" class="animated fadeInDown">Condiments</h5>
