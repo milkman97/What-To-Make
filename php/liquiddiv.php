@@ -1,8 +1,8 @@
 <div>
-    <?php $TypesOfLiquids = array("Water", "Alcahol", "Soft Drinks", "Milk","Oils", "Tropical", "Soy Based", "100% Fruit Juice", "Fruit Juice", "Coffee", "Tea", "Sports Drink", "Energy Drink");
+    <?php $TypesOfLiquids = array("Water", "Alcahol", "Sodas", "Milk","Oils", "Tropical", "Soy Based", "Juice", "Coffee", "Tea", "Sports");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
-    <input type="checkbox" id="<?php echo $value; ?>" onclick="HideOrUnhide(this.id,'<?php echo $value . "1"?>')" />
+    <input type="checkbox" id="<?php echo $value; ?>" onclick="HideOrUnhide(this.id,'<?php echo $value . "1"?>','Liquids2')" />
     <label for="<?php echo $value; ?>"><?php echo $value; ?></label>
     </p>
     <?php } ?>

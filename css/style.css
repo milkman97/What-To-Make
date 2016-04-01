@@ -1,6 +1,19 @@
 #types{
     font-size: 17px;
 }
+#Sodas1{
+    display: none;
+}
+#Alcahol1{
+    display: none;
+}
+#Liquids2{
+    font-size: 17px;
+    display: none;
+}
+#Water1{
+    display: none;
+}
 #Stems1{
     display: none;
 }

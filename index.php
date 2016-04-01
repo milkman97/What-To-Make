@@ -105,6 +105,18 @@
                         </div>
                     </div>
                     <div class="row">
+                        <h5 id="Liquids2" class="animated fadeInDown">Liquids</h5>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Water1">
+                            <?php include('php/Liquids/Water.php');?>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Alcahol1">
+                            <?php include('php/Liquids/Alcohol.php');?>
+                        </div>
+                        <div class="col s10 m6 l2 animated fadeInDown" id="Sodas1">
+                            <?php include('php/Liquids/SoftDrinks.php');?>
+                        </div>
+                    </div>
+                    <div class="row">
                         <h5 id="Condiments2" class="animated fadeInDown">Condiments</h5>
                         <div class="col s12 m12 l12 animated fadeInDown" id="Condiments1">
                             <?php include('php/other/condiments.php');?>
