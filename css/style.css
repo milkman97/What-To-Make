@@ -1,6 +1,34 @@
 #types{
     font-size: 17px;
 }
+#Dairy2{
+    font-size: 17px;
+    display: none;
+}
+#Dairy1{
+    display: none;
+}
+#Fats2{
+    font-size: 17px;
+    display: none;
+}
+#Fats1{
+    display: none;
+}
+#Seasoning2{
+    font-size: 17px;
+    display: none;
+}
+#Seasoning1{
+    display: none;
+}
+#Protein2{
+    font-size: 17px;
+    display: none; 
+}
+#Protein1{
+    display: none;
+}
 #Sports-Energy1{
     display: none;
 }

@@ -135,17 +135,36 @@
                         </div>
                     </div>
                     <div class="row">
-                        <h5 id="Condiments2" class="animated fadeInDown">Condiments</h5>
-                        <div class="col s12 m12 l12 animated fadeInDown" id="Condiments1">
-                            <?php include('php/other/condiments.php');?>
-                        </div>
-                    </div>
-                    <div class="row">
                         <h5 id="Breads2" class="animated fadeInDown">Breads and Grains</h5>
                         <div class="col s12 m12 l12 animated fadeInDown" id="Breads1">
                             <?php include('php/other/breads.php');?>
                         </div>
                     </div>
+                    <div class="row">
+                        <h5 id="Protein2" class="animated fadeInDown">Protein</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Protein1">
+                            <?php include('php/other/Protein.php');?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 id="Seasoning2" class="animated fadeInDown">Seasonings</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Seasoning1">
+                            <?php include('php/other/Seasonings.php');?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 id="Dairy2" class="animated fadeInDown">Dairy</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Dairy1">
+                            <?php include('php/other/Dairy.php');?>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h5 id="Condiments2" class="animated fadeInDown">Condiments</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Condiments1">
+                            <?php include('php/other/condiments.php');?>
+                        </div>
+                    </div>
+                    
                 </form>
                 <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
