@@ -193,6 +193,8 @@
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/MobileButtonView.js"></script>
         <script type="text/javascript" src="js/test.js"></script>
+        
+        <script type="text/javascript" src="js/apiTest.js"></script>
 </body>
 
 </html>

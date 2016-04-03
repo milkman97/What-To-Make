@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    
+    $.ajax({
+    url: "http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=milk,bread,cheese,beef",
+    dataType: 'jsonp',
+    success: function(results){
+        console.log(results);
+    }
+});
+
+});
+
