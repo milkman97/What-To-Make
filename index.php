@@ -10,25 +10,25 @@
                 <form>
                     <div class="row">
                         <h5 id="types" class="animated fadeInDown">Main Types Of Food</h5>
-                        <div class="col s10 m6 l3">
+                        <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="fruit" onclick="HideOrUnhide(this.id,'fruitDiv', 'categories')" />
                                 <label for="fruit">Fruit</label>
                             </p>
                         </div>
-                        <div class="col s10 m6 l3">
+                        <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="vegtable" onclick="HideOrUnhide(this.id,'vegtableDiv', 'categories')" />
                                 <label for="vegtable">Vegetables</label>
                             </p>
                         </div>
-                        <div class="col s10 m6 l3">
+                        <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="liquid" onclick="HideOrUnhide(this.id,'liquidDiv', 'categories')" />
                                 <label for="liquid">Liquid</label>
                             </p>
                         </div>
-                        <div class="col s10 m6 l3">
+                        <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="other" onclick="HideOrUnhide(this.id,'otherDiv', 'categories')" />
                                 <label for="other">Other</label>
@@ -182,7 +182,7 @@
                     </div>
 
                 </form>
-                <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                <button class="btn waves-effect waves-light right" type="submit" name="action" id="send">Submit
                     <i class="material-icons right">send</i>
                 </button>
             </div>
@@ -208,7 +208,7 @@
         <section>
             <div class="container">
                 <div class="row" id="id01">
-                    
+
                 </div>
             </div>
         </section>
@@ -216,7 +216,6 @@
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/MobileButtonView.js"></script>
         <script type="text/javascript" src="js/test.js"></script>
-
         <script type="text/javascript" src="js/apiTest.js"></script>
 </body>
 

@@ -1,6 +1,7 @@
-$(document).ready(
+$('#send').click(
     function(){
-        $.getJSON("http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=milk,bread,cheese,beef", function(data)
+        var url = "http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + foods.toString();
+        $.getJSON(url, function(data)
             {
             console.log(data);
         });

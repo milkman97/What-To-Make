@@ -35,12 +35,15 @@ function toggleSub(box, id, header) {
 function addItemToArray(id){
     var boxs = document.getElementById(id);
      if (boxs.checked) {
+         var item = document.getElementById(id).id;
+         item = lookForSpaces(item);
+         
         //adding elements to the array
-        foods.push(document.getElementById(id).id);
+        foods.push(item);
         
         //string to push to api call
         var stuff = foods.toString(); 
-         
+        console.log(stuff);
     }
     if(!boxs.checked) {
         //deletes elements from the array
@@ -49,4 +52,8 @@ function addItemToArray(id){
 	       foods.splice(i, 1);
         }
     }
+}
+
+function lookForSpaces(id){
+    return id.replace(/\s/g, '%20');
 }

@@ -22,9 +22,9 @@
             </div>
             <!-- Mobile -->
             <ul id="nav-mobile" class="side-nav " style="left: -600px;">
-                <li><a href="#about" class="black-text">Home</a></li>
-                <li><a href="#products" class="black-text">Login</a></li>
-                <li><a href="#contact" class="black-text">Contact</a></li>
+                <li><a href="index.php" class="black-text">Home</a></li>
+                <li><a href="login.php" class="black-text">Login</a></li>
+                <li><a href="contact.php" class="black-text">Contact</a></li>
             </ul><a href="#" data-activates="nav-mobile" class="white-text button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
