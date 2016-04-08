@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <body>
     <?php include('php/header.php');?>
         <br>
@@ -38,70 +39,85 @@
                         <h5 id="categories" class="animated fadeInDown">Categories</h5>
                         <div class="col s10 m6 l3 animated fadeInDown" id="fruitDiv">
                             <?php include('php/fruitdiv.php');?>
-                            <br>
+                                <br>
                         </div>
                         <div class="col s10 m6 l3 animated fadeInDown" id="vegtableDiv">
                             <?php include('php/vegtablediv.php');?>
-                            <br>
+                                <br>
                         </div>
                         <div class="col s10 m6 l3 animated fadeInDown" id="liquidDiv">
                             <?php include('php/liquiddiv.php');?>
-                            <br>
+                                <br>
                         </div>
                         <div class="col s10 m6 l3 animated fadeInDown" id="otherDiv">
                             <?php include('php/otherdiv.php');?>
-                            <br>
+                                <br>
                         </div>
                     </div>
                     <div class="row">
                         <h5 id="fruitsRow" class="animated fadeInDown">Fruits</h5>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Berries1">
-                            <?php include('php/fruit/berries.php');?><br>
+                            <?php include('php/fruit/berries.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Pits1">
-                            <?php include('php/fruit/pits.php');?><br>
+                            <?php include('php/fruit/pits.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Core1">
-                            <?php include('php/fruit/cores.php');?><br>
+                            <?php include('php/fruit/cores.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Melons1">
-                            <?php include('php/fruit/melons.php');?><br>
+                            <?php include('php/fruit/melons.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Citrus1">
-                            <?php include('php/fruit/citrus.php');?><br>
+                            <?php include('php/fruit/citrus.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Tropical1">
-                            <?php include('php/fruit/tropical.php');?><br>
+                            <?php include('php/fruit/tropical.php');?>
+                                <br>
                         </div>
                     </div>
                     <div class="row">
-                       <h5 id="vegetableRow" class="animated fadeInDown">Vegetables</h5>
+                        <h5 id="vegetableRow" class="animated fadeInDown">Vegetables</h5>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Bulbs1">
-                            <?php include('php/vegetables/Bulbs.php');?><br>
+                            <?php include('php/vegetables/Bulbs.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Flower1">
-                            <?php include('php/vegetables/Flower.php');?><br>
+                            <?php include('php/vegetables/Flower.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Fruit1">
-                            <?php include('php/vegetables/Fruit.php');?><br>
+                            <?php include('php/vegetables/Fruit.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Fungi1">
-                            <?php include('php/vegetables/Fungi.php');?><br>
+                            <?php include('php/vegetables/Fungi.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Leaves1">
-                            <?php include('php/vegetables/Leaves.php');?><br>
+                            <?php include('php/vegetables/Leaves.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Roots1">
-                            <?php include('php/vegetables/Roots.php');?><br>
+                            <?php include('php/vegetables/Roots.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Seeds1">
-                            <?php include('php/vegetables/Seeds.php');?><br>
+                            <?php include('php/vegetables/Seeds.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Stems1">
-                            <?php include('php/vegetables/Stems.php');?><br>
+                            <?php include('php/vegetables/Stems.php');?>
+                                <br>
                         </div>
                         <div class="col s10 m6 l2 animated fadeInDown" id="Tubers1">
-                            <?php include('php/vegetables/Tubers.php');?><br>
+                            <?php include('php/vegetables/Tubers.php');?>
+                                <br>
                         </div>
                     </div>
                     <div class="row">
@@ -164,7 +180,7 @@
                             <?php include('php/other/condiments.php');?>
                         </div>
                     </div>
-                    
+
                 </form>
                 <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
                     <i class="material-icons right">send</i>
@@ -189,11 +205,18 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="row" id="id01">
+                    
+                </div>
+            </div>
+        </section>
         <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/MobileButtonView.js"></script>
         <script type="text/javascript" src="js/test.js"></script>
-        
+
         <script type="text/javascript" src="js/apiTest.js"></script>
 </body>
 

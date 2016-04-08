@@ -2,7 +2,7 @@
     <?php $TypesOfBerries = array("Appels", "Pears");
     foreach ($TypesOfBerries as $value) { ?>
     <p>
-    <input type="checkbox" id="<?php echo $value; ?>" />
+    <input type="checkbox" id="<?php echo $value; ?>" onclick="addItemToArray(this.id)" />
     <label for="<?php echo $value; ?>"><?php echo $value; ?></label>
     </p>
     <?php } ?>
