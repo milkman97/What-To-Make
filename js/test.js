@@ -21,10 +21,6 @@ function toggleSub(box, id, header) {
             head.style.display = "block";
         }
     } if(!boxs.checked) {
-        var i = foods.indexOf(document.getElementById(box).id);
-        if(i != -1) {
-	       foods.splice(i, 1);
-        }
         el.classList.remove('fadeInDown');
         el.classList.add('fadeOutUp');
         el.style.display = "none";
@@ -41,8 +37,10 @@ function addItemToArray(id){
      if (boxs.checked) {
         //adding elements to the array
         foods.push(document.getElementById(id).id);
-        var stuff = foods.toString();
-        console.log(stuff);  
+        
+        //string to push to api call
+        var stuff = foods.toString(); 
+         
     }
     if(!boxs.checked) {
         //deletes elements from the array
