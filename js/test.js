@@ -33,9 +33,11 @@ function toggleSub(box, id, header) {
 }
 
 function addItemToArray(id){
+    var item = document.getElementById(id).id;
     var boxs = document.getElementById(id);
-     if (boxs.checked) {
-         var item = document.getElementById(id).id;
+     
+    if (boxs.checked) {
+         
          item = lookForSpaces(item);
          
         //adding elements to the array
@@ -47,9 +49,12 @@ function addItemToArray(id){
     }
     if(!boxs.checked) {
         //deletes elements from the array
-        var i = foods.indexOf(document.getElementById(id).id);
+        item = lookForSpaces(item);
+        var i = foods.indexOf(item);
         if(i != -1) {
 	       foods.splice(i, 1);
+            var stuff = foods.toString(); 
+            console.log(stuff);
         }
     }
 }
