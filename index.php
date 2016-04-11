@@ -207,9 +207,56 @@
             </div>
         </section>
         <section>
+            <br>
+            <br>
+            <br>
             <div class="container">
-                <div class="row" id="id01">
-
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/foodplaceholder.jpeg" id="picplaceholder1">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4" id="title1">Hallmark Of Burgers<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#" id="linktorecipe1">Make This!</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4" id="title1">Hallmark Of Burgers<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/burritoplaceholder.jpg" id="picplaceholder2">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4" id="title2">Hallmark Of Burritos<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#" id="linktorecipe2">Make This!</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4" id="title2">Hallmark Of Burritos<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/pizza.jpg" id="picplaceholder3">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4" id="title3">Hallmark Of Pizza<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#" id="linktorecipe3">Make This!</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4" id="title3">Hallmark Of Pizza<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
