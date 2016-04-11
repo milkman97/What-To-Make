@@ -4,12 +4,14 @@
 
 <body>
     <?php include('php/header.php');?>
-        <br>
-        <br>
-        <section>
+        
+        <section class="amber lighten-4">
+            <br>
+            <br>
             <div class="container">
                 <form>
                     <div class="row">
+                        
                         <h5 id="types" class="animated fadeInDown">Main Types Of Food</h5>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
@@ -181,32 +183,12 @@
                             <?php include('php/other/condiments.php');?>
                         </div>
                     </div>
-
                 </form>
-                <button class="btn waves-effect waves-light right" type="submit" name="action" id="send">Submit
-                    <i class="material-icons right">send</i>
-                </button>
+                <a class="btn-floating btn-large waves-effect waves-light right "><i class="material-icons" id="send">send</i></a>
             </div>
+            <br>
         </section>
-        <br>
-        <br>
-        <br>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <form>
-                        <div class="input-field col s12">
-                            <input placeholder="Enter with a space after comma: item, item, item" id="search" type="text">
-                            <label for="search" id="searchText">Search</label>
-                        </div>
-                        <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <section>
+        <section class="orange accent-1">
             <br>
             <br>
             <br>
@@ -219,11 +201,13 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4" id="title1">Hallmark Of Burgers<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" id="linktorecipe1">Make This!</a></p>
+                                <p><a href="#" target="_blank" id="linktorecipe1">Make This!</a></p>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4" id="title1">Hallmark Of Burgers<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <span class="card-title grey-text text-darken-4" id="title1"><i class="material-icons right">close</i></span>
+                                <h5 id="publisher1"></h5>
+                                <p><a href="#" target="_blank" id="publisherurl1">Visit Them!</a></p>
+                                <h6 id="rank1"></h6>
                             </div>
                         </div>
                     </div>
@@ -234,11 +218,13 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4" id="title2">Hallmark Of Burritos<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" id="linktorecipe2">Make This!</a></p>
+                                <p><a href="#" target="_blank" id="linktorecipe2">Make This!</a></p>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4" id="title2">Hallmark Of Burritos<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <span class="card-title grey-text text-darken-4" id="title2"><i class="material-icons right">close</i></span>
+                                <h5 id="publisher2"></h5>
+                                <p><a href="#" target="_blank" id="publisherurl2">Visit Them!</a></p>
+                                <h6 id="rank2"></h6>
                             </div>
                         </div>
                     </div>
@@ -249,19 +235,22 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4" id="title3">Hallmark Of Pizza<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#" id="linktorecipe3">Make This!</a></p>
+                                <p><a href="#" target="_blank" id="linktorecipe3">Make This!</a></p>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4" id="title3">Hallmark Of Pizza<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <span class="card-title grey-text text-darken-4" id="title3"><i class="material-icons right">close</i></span>
+                                <h5 id="publisher3"></h5>
+                                <p><a href="#" target="_blank" id="publisherurl3">Visit Them!</a></p>
+                                <h6 id="rank3"></h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <br><br>
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/MobileButtonView.js"></script>
         <script type="text/javascript" src="js/test.js"></script>
         <script type="text/javascript" src="js/apiTest.js"></script>

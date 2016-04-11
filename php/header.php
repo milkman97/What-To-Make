@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What to Make</title>
 </head>
-<nav class="blue-grey darken-1" role="navigation">
+<nav class="orange darken-2" role="navigation">
         <div class="nav-wrapper">
             <div class="bar">
                 <a href="index.html" class="white-text brand-logo" id="titleText">What to Make</a>
