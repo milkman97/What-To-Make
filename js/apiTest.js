@@ -23,9 +23,9 @@ $('#send').click(
                 $("#linktorecipe2").attr("href", data.recipes[1].source_url);
                 $("#linktorecipe3").attr("href", data.recipes[2].source_url);
 
-                document.getElementById("publisher1").innerHTML = "Publisher " + data.recipes[0].publisher;
-                document.getElementById("publisher2").innerHTML = "Publisher " + data.recipes[1].publisher;
-                document.getElementById("publisher3").innerHTML = "Publisher " + data.recipes[2].publisher;
+                document.getElementById("publisher1").innerHTML = "Publisher: " + data.recipes[0].publisher;
+                document.getElementById("publisher2").innerHTML = "Publisher: " + data.recipes[1].publisher;
+                document.getElementById("publisher3").innerHTML = "Publisher: " + data.recipes[2].publisher;
 
                 $("#publisherurl1").attr("href", data.recipes[0].publisher_url);
                 $("#publisherurl2").attr("href", data.recipes[1].publisher_url);

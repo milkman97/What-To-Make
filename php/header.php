@@ -15,9 +15,9 @@
             <div class="bar">
                 <a href="index.html" class="white-text brand-logo" id="titleText">What to Make</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#about" class="white-text">Home</a></li>
-                    <li><a href="#products" class="white-text">Login</a></li>
-                    <li><a href="#contact" class="white-text">Contact</a></li>
+                    <li><a href="index.php" class="white-text">Home</a></li>
+                    <li><a href="login.php" class="white-text">Login</a></li>
+                    <li><a href="contact.php" class="white-text">Contact</a></li>
                 </ul>
             </div>
             <!-- Mobile -->

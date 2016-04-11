@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfLiquids = array("Olive", "Peanut", "Corn", "Vegetable", "Canola");
+    <?php $TypesOfLiquids = array("Olive Oil", "Peanut Oil", "Corn Oil", "Vegetable Oil", "Canola Oil");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="addItemToArray(this.id)" />

@@ -184,7 +184,7 @@
                         </div>
                     </div>
                 </form>
-                <a class="btn-floating btn-large waves-effect waves-light right "><i class="material-icons" id="send">send</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light right animated zoomIn"><i class="material-icons" id="send">send</i></a>
             </div>
             <br>
         </section>
@@ -195,7 +195,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card animated slideInUp">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/foodplaceholder.jpeg" id="picplaceholder1">
                             </div>
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card animated slideInUp">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/burritoplaceholder.jpg" id="picplaceholder2">
                             </div>
@@ -229,7 +229,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card animated slideInUp">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/pizza.jpg" id="picplaceholder3">
                             </div>
