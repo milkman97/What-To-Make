@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfBerries = array("Asiago", "Blue Cheese", "Parmesan", "Gouda", "Swiss", "Chedder", "Monterey Jack", "Provolone", "Colby", "Pepper Jack", "Mozzarella", "Feta", "Munster");
+    <?php $TypesOfBerries = array("Asiago", "Blue Cheese", "Parmesan", "Gouda", "Swiss", "Cheddar", "Monterey Jack", "Provolone", "Colby", "Pepper Jack", "Mozzarella", "Feta");
     foreach ($TypesOfBerries as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="addItemToArray(this.id)"/>

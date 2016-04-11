@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfLiquids = array("Artichoke","Cauliflower","Broccoli", "Choi Sum", "Courgett");
+    <?php $TypesOfLiquids = array("Artichoke","Cauliflower","Broccoli");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="addItemToArray(this.id)"/>
