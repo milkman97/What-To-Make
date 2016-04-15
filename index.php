@@ -183,6 +183,12 @@
                             <?php include('php/other/condiments.php');?>
                         </div>
                     </div>
+                    <div class="row">
+                        <h5 id="Meal2" class="animated fadeInDown">Meal Types</h5>
+                        <div class="col s12 m12 l12 animated fadeInDown" id="Meal1">
+                            <?php include('php/other/MealType.php');?>
+                        </div>
+                    </div>
                 </form>
                 <a class="btn-floating btn-large waves-effect waves-light right animated zoomIn"><i class="material-icons" id="send">send</i></a>
             </div>

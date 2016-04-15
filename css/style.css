@@ -1,6 +1,13 @@
 #types{
     font-size: 17px;
 }
+#Meal2{
+    font-size: 17px;
+    display: none;
+}
+#Meal1{
+    display: none;
+}
 #Dairy2{
     font-size: 17px;
     display: none;
