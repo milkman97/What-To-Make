@@ -32,7 +32,7 @@
             
             <li><a href="index.php"><i class="mdi-navigation-refresh left"></i>Refresh</a></li>
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
-            <li><a href="contact.php" class="black-text"><i class="material-icons left">phone</i>Contact Us</a></li>
+            <li><a href="contact.php" class="black-text"><i class="mdi-phone left"></i>Contact Us</a></li>
             <li>
                 <form oncchange="search();">
                 <div class="input-field left tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search">
