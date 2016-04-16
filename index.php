@@ -15,25 +15,25 @@
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="fruit" onclick="HideOrUnhide(this.id,'fruitDiv', 'categories')" />
-                                <label for="fruit">Fruit</label>
+                                <label class="black-text" for="fruit">Fruit</label>
                             </p>
                         </div>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="vegtable" onclick="HideOrUnhide(this.id,'vegtableDiv', 'categories')" />
-                                <label for="vegtable">Vegetables</label>
+                                <label class="black-text" for="vegtable">Vegetables</label>
                             </p>
                         </div>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="liquid" onclick="HideOrUnhide(this.id,'liquidDiv', 'categories')" />
-                                <label for="liquid">Liquid</label>
+                                <label class="black-text" for="liquid">Liquid</label>
                             </p>
                         </div>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="other" onclick="HideOrUnhide(this.id,'otherDiv', 'categories')" />
-                                <label for="other">Other</label>
+                                <label class="black-text" for="other">Other</label>
                             </p>
                         </div>
                     </div>
