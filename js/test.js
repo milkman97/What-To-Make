@@ -62,3 +62,5 @@ function addItemToArray(id){
 function lookForSpaces(id){
     return id.replace(/\s/g, '%20');
 }
+
+$('.modal-trigger').leanModal();

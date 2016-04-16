@@ -6,7 +6,7 @@
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4" id="title1">Hallmark Of Burgers<i class="material-icons right">more_vert</i></span>
-                <p><a href="#" target="_blank" id="linktorecipe1">Make This!</a></p>
+                <p><a href="http://www.foodandwine.com/slideshows/burger-recipes" target="_blank" id="linktorecipe1">Make This!</a></p>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4" id="title1"><i class="material-icons right">close</i></span>
@@ -22,8 +22,8 @@
                 <img class="activator" src="images/burritoplaceholder.jpg" id="picplaceholder2">
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4" id="title2">Hallmark Of Burritos<i class="material-icons right">more_vert</i></span>
-                <p><a href="#" target="_blank" id="linktorecipe2">Make This!</a></p>
+                <span class="card-title activator grey-text text-darken-4" id="title2">Best Burritos<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://www.tasteofhome.com/recipes/flavorful-chicken-fajitas" target="_blank" id="linktorecipe2">Make This!</a></p>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4" id="title2"><i class="material-icons right">close</i></span>
@@ -39,8 +39,8 @@
                 <img class="activator" src="images/pizza.jpg" id="picplaceholder3">
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4" id="title3">Hallmark Of Pizza<i class="material-icons right">more_vert</i></span>
-                <p><a href="#" target="_blank" id="linktorecipe3">Make This!</a></p>
+                <span class="card-title activator grey-text text-darken-4" id="title3">Delicous Pizza<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://allrecipes.com/recipes/250/main-dish/pizza/" target="_blank" id="linktorecipe3">Make This!</a></p>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4" id="title3"><i class="material-icons right">close</i></span>

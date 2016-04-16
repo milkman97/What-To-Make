@@ -1,3 +1,7 @@
+    #aside.pinned, #aside.pin-bottom {
+        position:static !important;
+        top: auto !important;
+    }
 #types{
     font-size: 17px;
 }
