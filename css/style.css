@@ -1,7 +1,7 @@
-    #aside.pinned, #aside.pin-bottom {
-        position:static !important;
-        top: auto !important;
-    }
+.searchBar{
+    margin-left: 500px;
+    width: 1000px;
+}
 #types{
     font-size: 17px;
 }
