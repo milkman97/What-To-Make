@@ -1,5 +1,5 @@
 $(document).ready(function () {
     $(".button-collapse").sideNav({
-        menuWidth: 220
+        menuWidth: 200
     });
 });

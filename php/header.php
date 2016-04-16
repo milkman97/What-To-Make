@@ -28,7 +28,7 @@
             </ul>
         </div>
         <!-- Mobile -->
-        <ul id="nav-mobile" class="side-nav">
+        <ul id="nav-mobile" class="side-nav " style="left: -700px;">
             
             <li><a href="index.php"><i class="mdi-navigation-refresh left"></i>Refresh</a></li>
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
