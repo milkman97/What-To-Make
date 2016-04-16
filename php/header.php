@@ -12,7 +12,7 @@
 <nav class="orange darken-2" role="navigation">
     <div class="nav-wrapper">
         <div class="bar">
-            <a href="index.php" class="white-text brand-logo" id="titleText">Makey It</a>
+            <a href="index.php" class="white-text brand-logo" id="titleText">MakeyMit</a>
             <form class="hide-on-med-and-down searchBar" action="#">
                 <div class="input-field left tooltipped" data-position="right" data-delay="3" data-tooltip="Search">
                     <input id="search" type="search" required>
@@ -24,16 +24,27 @@
                 <li><a href="index.php" class="tooltipped" data-position="bottom" data-delay="3" data-tooltip="Refresh Me"><i class="mdi-navigation-refresh"></i></a></li>
                 <li><a href="#modalLogin" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Login"><i class="mdi-action-perm-identity"></i></a></li>
                 <li><a href="contact.php" class="white-text tooltipped" data-position="bottom" data-delay="3" data-tooltip="Contact Us"><i class="material-icons">phone</i></a></li>
-
+                
             </ul>
         </div>
         <!-- Mobile -->
-        <ul id="nav-mobile" class="side-nav " style="left: -600px;">
+        <ul id="nav-mobile" class="side-nav">
             
             <li><a href="index.php"><i class="mdi-navigation-refresh left"></i>Refresh</a></li>
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
-            <li><a href="contact.php" class="black-text"><i class="material-icons left">phone</i> Contact Us</a></li>
-        </ul><a href="#" data-activates="nav-mobile" class="white-text button-collapse"><i class="material-icons">menu</i></a>
+            <li><a href="contact.php" class="black-text"><i class="material-icons left">phone</i>Contact Us</a></li>
+            <li>
+                <form oncchange="search();">
+                <div class="input-field left tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search">
+                    <input id="search1" type="search" required>
+                    <label  for="search"><i class="black-text material-icons ">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+            </li>
+        </ul>
+        
+        <a href="#" data-activates="nav-mobile" class="white-text button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
 

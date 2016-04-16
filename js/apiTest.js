@@ -74,9 +74,16 @@ $('#send').click(
 $(document).keypress(function (e) {
     if (e.which == 13) {
         var listsearch = $('#search').val();
-        var listsearch = lookForSpaces(listsearch);
+        var listsearch1 = $('#search1').val();
         
-        var url = "http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + listsearch;
+        var listsearch = lookForSpaces(listsearch);
+        var listsearch1 = lookForSpaces(listsearch1);
+        
+        if(listsearch === ""){
+            var url = "http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + listsearch1;
+        }else{
+             var url = "http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + listsearch;
+        }
         $.getJSON(url, function (data) {
             if (data.recipes.length === 0) {
 
