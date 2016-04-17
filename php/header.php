@@ -44,7 +44,7 @@
             </li>
         </ul>
         
-        <a href="#" data-activates="nav-mobile" class="white-text button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="nav-mobile" class="white-text button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
 </nav>
 
