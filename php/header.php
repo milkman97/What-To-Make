@@ -34,7 +34,7 @@
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
             <li><a href="contact.php" class="black-text"><i class="mdi-communication-phone left"></i>Contact Us</a></li>
             <li>
-                <form>
+                <form action="#">
                 <div class="input-field left tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search">
                     <input id="search1" type="search" required>
                     <label  for="search"><i class="black-text mdi-action-search"></i></label>
