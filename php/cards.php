@@ -9,7 +9,7 @@
                 <p><a href="http://www.foodandwine.com/slideshows/burger-recipes" target="_blank" id="linktorecipe1">Make This!</a></p>
             </div>
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4" id="title1"><i class="material-icons right">close</i></span>
+                <span class="card-title grey-text text-darken-4" id="title1"><i class="mdi-navigation-close right"></i></span>
                 <h5 id="publisher1"></h5>
                 <p><a href="#" target="_blank" id="publisherurl1">Visit Them!</a></p>
                 <h6 id="rank1"></h6>
@@ -26,7 +26,7 @@
                 <p><a href="http://www.tasteofhome.com/recipes/flavorful-chicken-fajitas" target="_blank" id="linktorecipe2">Make This!</a></p>
             </div>
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4" id="title2"><i class="material-icons right">close</i></span>
+                <span class="card-title grey-text text-darken-4" id="title2"><i class="mdi-navigation-close right"></i></span>
                 <h5 id="publisher2"></h5>
                 <p><a href="#" target="_blank" id="publisherurl2">Visit Them!</a></p>
                 <h6 id="rank2"></h6>
@@ -43,7 +43,7 @@
                 <p><a href="http://allrecipes.com/recipes/250/main-dish/pizza/" target="_blank" id="linktorecipe3">Make This!</a></p>
             </div>
             <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4" id="title3"><i class="material-icons right">close</i></span>
+                <span class="card-title grey-text text-darken-4" id="title3"><i class="mdi-navigation-close right"></i></span>
                 <h5 id="publisher3"></h5>
                 <p><a href="#" target="_blank" id="publisherurl3">Visit Them!</a></p>
                 <h6 id="rank3"></h6>
