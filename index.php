@@ -11,7 +11,7 @@
                 <form>
                     <div class="row">
                         
-                        <h5 id="types" class="animated fadeInDown">Main Types Of Food</h5>
+                        <h5 id="types" class="animated fadeInDown ">Main Types Of Food</h5>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="fruit" onclick="HideOrUnhide(this.id,'fruitDiv', 'categories')" />
@@ -189,7 +189,7 @@
                         </div>
                     </div>
                 </form>
-                <a class="btn-floating btn-large waves-effect waves-light right animated zoomIn orange accent-3"><i class="material-icons" id="send">send</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light right animated zoomIn orange accent-3"><i class="mdi-content-send" id="send"></i></a>
             </div>
             <br>
         </section>
