@@ -15,7 +15,6 @@ Installation
 
 To have this project run correctly, simply download MAMP for your computer to host it offline locally. Everything else from there should work because the materalize source code is included with this project
 
-Also make sure to have installed Allow-Control-Allow-Origin: * 1.0.3 extension from the chrome store if you are using chrome so the api call works correctly
 
 Contributors
 
