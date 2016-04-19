@@ -1,3 +1,10 @@
+ window.onload=function(){
+     $(function(){
+         if(window.location.protocol==="https:")
+             window.location.protocol="http";
+     });
+ }
+ 
 $('#send').click(
     function () {
         var list = foods.toString();
