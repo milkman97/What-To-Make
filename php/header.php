@@ -1,6 +1,5 @@
 <head>
-    
-    <link rel="icon" href="../images/glyphacon.ico">
+    <link rel="shortcut icon" href="../images/glyphacon.ico" type="image/x-icon">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
