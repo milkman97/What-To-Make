@@ -148,9 +148,6 @@
                         <div class="col s10 m6 l2 animated fadeInDown" id="Tea1">
                             <?php include('php/Liquids/Tea.php');?>
                         </div>
-                        <div class="col s10 m6 l2 animated fadeInDown" id="Sports-Energy1">
-                            <?php include('php/Liquids/Sport.php');?>
-                        </div>
                     </div>
                     <div class="row">
                         <h5 id="Breads2" class="animated fadeInDown">Breads and Grains</h5>

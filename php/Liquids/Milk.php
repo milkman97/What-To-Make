@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfLiquids = array("Whole", "2%", "1%", "Fat-Free", "Organic", "Lactose Free", "Soy Based");
+    <?php $TypesOfLiquids = array("Whole Milk", "2% Milk", "1% Milk", "Fat-Free Milk", "Organic Milk", "Lactose Free Milk", "Soy Based Milk");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="addItemToArray(this.id)" />

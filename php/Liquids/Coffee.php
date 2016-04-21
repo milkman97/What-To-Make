@@ -1,5 +1,5 @@
 <div>
-    <?php $TypesOfLiquids = array("Cappuccino", "Mocha", "Latte", "Americano", "Macchiato", "Doppio", "Espresso", "Ristretto");
+    <?php $TypesOfLiquids = array("Cappuccino", "Mocha", "Latte", "Americano", "Macchiato", "Espresso");
     foreach ($TypesOfLiquids as $value) { ?>
     <p>
     <input type="checkbox" id="<?php echo $value; ?>" onclick="addItemToArray(this.id)" />
