@@ -10,7 +10,7 @@
             <div class="container">
                 <form>
                     <div class="row">
-                        
+
                         <h5 id="types" class="animated fadeInDown ">Main Types Of Food</h5>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
@@ -197,7 +197,8 @@
             <div class="container">
                 <?php include('php/cards.php');?>
             </div>
-            <br><br>
+            <br>
+            <br>
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="js/materialize.min.js"></script>
@@ -205,5 +206,13 @@
         <script type="text/javascript" src="js/test.js"></script>
         <script type="text/javascript" src="js/apiTest.js"></script>
 </body>
+<footer>
+    <div class="footer-copyright  brown lighten-5">
+        <div class="container">2016 Copyright <a href="http://www.food2fork.com" target="_blank">Powered by Food2Fork</a>
+            <a class="right" href="http://www.dmca.com/Protection/Status.aspx?ID=1f14d35c-8e5c-4575-a551-02fd67489889" title="DMCA.com Protection Status" class="dmca-badge"> <img height="16" src="//images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=1f14d35c-8e5c-4575-a551-02fd67489889" alt="DMCA.com Protection Status" /></a>
+            
+        </div>
+    </div>
+</footer>
 
 </html>
