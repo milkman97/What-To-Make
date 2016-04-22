@@ -209,7 +209,7 @@
 <footer>
     <div class="footer-copyright  brown lighten-5">
         <div class="container">2016 Copyright <a href="http://www.food2fork.com" target="_blank">Powered by Food2Fork</a>
-            <a class="right" href="https://www.dmca.com/Protection/Status.aspx?PAGE_ID=aHR0cDovL21ha2V5aXQuaGVyb2t1YXBwLmNvbS81" title="DMCA.com Protection Status" class="dmca-badge"> <img height="16" src="//images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=1f14d35c-8e5c-4575-a551-02fd67489889" alt="DMCA.com Protection Status" /></a>
+            <a class="right" href="https://www.dmca.com/Protection/Status.aspx?PAGE_ID=aHR0cDovL21ha2V5aXQuaGVyb2t1YXBwLmNvbS81" title="DMCA.com Protection Status" class="dmca-badge" target="_blank"> <img height="16" src="//images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=1f14d35c-8e5c-4575-a551-02fd67489889" alt="DMCA.com Protection Status" /></a>
             
         </div>
     </div>
