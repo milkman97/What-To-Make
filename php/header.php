@@ -79,6 +79,33 @@
                 <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
                 <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Login</a>
             </p>
+            
+            <br>
+            <h4 class="center-align">Sign Up</h4>
+            <div class="divider"></div>
+            <form class="col s12">
+                <div class="row center-align">
+                    <div class="input-field col m10 offset-m1 orange-text ">
+                        <i class="mdi-communication-email prefix"></i>
+                        <input id="icon_email" type="text" class="validate">
+                        <label for="icon_email">Email</label>
+                    </div>
+                    <div class="input-field col m10 offset-m1 orange-text">
+                        <i class="mdi-action-account-circle prefix"></i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Username</label>
+                    </div>
+                    <div class="input-field col m10 offset-m1 orange-text ">
+                        <i class="mdi-action-lock-open prefix"></i>
+                        <input id="icon_password" type="password" class="validate">
+                        <label for="icon_password">Password</label>
+                    </div>
+                </div>
+            </form>
+            <p>
+                <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
+                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Sign Up</a>
+            </p>
         </div>
     </div>
 </div>
