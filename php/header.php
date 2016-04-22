@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </form>
-            <div class="divider"></div>
+            
             <p>
                 <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
                 <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Login</a>
