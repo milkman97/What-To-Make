@@ -25,7 +25,7 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php" class="tooltipped" data-position="bottom" data-delay="3" data-tooltip="Refresh Me"><i class="mdi-navigation-refresh"></i></a></li>
                 <li><a href="#modalLogin" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Login"><i class="mdi-action-perm-identity"></i></a></li>
-                <li><a href="contact.php" class="white-text tooltipped" data-position="bottom" data-delay="3" data-tooltip="Contact Us"><i class="mdi-communication-phone"></i></a></li>
+                <li><a href="#contact" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Contact Us"><i class="mdi-communication-phone"></i></a></li>
                 
             </ul>
         </div>
@@ -34,7 +34,7 @@
             
             <li><a href="index.php"><i class="mdi-navigation-refresh left"></i>Refresh</a></li>
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
-            <li><a href="contact.php" class="black-text"><i class="mdi-communication-phone left"></i>Contact Us</a></li>
+            <li><a href="#contact" class="modal-trigger"><i class="mdi-communication-phone left"></i>Contact Us</a></li>
             <li>
                 <form action="#">
                 <div class="input-field left tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search">
@@ -79,6 +79,16 @@
                 <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
                 <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Login</a>
             </p>
+        </div>
+    </div>
+</div>
+<!---Contact us modal--->
+<div id="contact" class="modal">
+    <div class="modal-content">
+        <h4 class="center-align">Contact Us</h4>
+        <div class="center-align">
+            <div class="divider"></div>
+            <p><a target="_blank" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=makeymit@gmail.com">Email</a></p>
         </div>
     </div>
 </div>
