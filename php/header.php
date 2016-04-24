@@ -60,13 +60,13 @@
                 <div class="row center-align">
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Username</label>
+                        <input id="Username" type="text" class="validate">
+                        <label for="Username">Username</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text ">
                         <i class="mdi-action-lock-open prefix"></i>
-                        <input id="icon_password" type="password" class="validate">
-                        <label for="icon_password">Password</label>
+                        <input id="Password" type="password" class="validate">
+                        <label for="Password">Password</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text">
                         <input type="checkbox" class="orange-text" id="filled-in-box">
@@ -77,7 +77,7 @@
             
             <p>
                 <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
-                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Login</a>
+                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close" type="submit" name="Login">Login</a>
             </p>
             
             <br>
@@ -85,26 +85,36 @@
             <div class="divider"></div>
             <form class="col s12">
                 <div class="row center-align">
-                    <div class="input-field col m10 offset-m1 orange-text ">
-                        <i class="mdi-communication-email prefix"></i>
-                        <input id="icon_email" type="text" class="validate">
-                        <label for="icon_email">Email</label>
+                    <div class="input-field col m10 offset-m1 orange-text">
+                        <i class="mdi-action-account-circle prefix"></i>
+                        <input id="FirstName" type="text" class="validate">
+                        <label for="FirstName">First Name</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Username</label>
+                        <input id="LastName" type="text" class="validate">
+                        <label for="LastName">Last Name</label>
+                    </div>
+                    <div class="input-field col m10 offset-m1 orange-text">
+                        <i class="mdi-action-account-circle prefix"></i>
+                        <input id="Username1" type="text" class="validate">
+                        <label for="Username1">Username</label>
+                    </div>
+                    <div class="input-field col m10 offset-m1 orange-text ">
+                        <i class="mdi-communication-email prefix"></i>
+                        <input id="Email1" type="text" class="validate">
+                        <label for="Emaill">Email</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text ">
                         <i class="mdi-action-lock-open prefix"></i>
-                        <input id="icon_password" type="password" class="validate">
-                        <label for="icon_password">Password</label>
+                        <input id="Password1" type="password" class="validate">
+                        <label for="Password1">Password</label>
                     </div>
                 </div>
             </form>
             <p>
                 <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
-                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Sign Up</a>
+                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close" type="submit" name="SignUp">Sign Up</a>
             </p>
         </div>
     </div>
