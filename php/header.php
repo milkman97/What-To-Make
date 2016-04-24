@@ -60,12 +60,12 @@
                 <div class="row center-align">
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
-                        <input id="Username" type="text" class="validate">
+                        <input id="Username" type="text" name="Username" class="validate">
                         <label for="Username">Username</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text ">
                         <i class="mdi-action-lock-open prefix"></i>
-                        <input id="Password" type="password" class="validate">
+                        <input id="Password" type="password" name="Password" class="validate">
                         <label for="Password">Password</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text">
@@ -84,27 +84,27 @@
                 <div class="row center-align">
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
-                        <input id="FirstName" type="text" class="validate">
+                        <input id="FirstName" type="text" name="FirstName" class="validate">
                         <label for="FirstName">First Name</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
-                        <input id="LastName" type="text" class="validate">
+                        <input id="LastName" type="text" name="LastName" class="validate">
                         <label for="LastName">Last Name</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
-                        <input id="Username1" type="text" class="validate">
+                        <input id="Username1" type="text" name="Username1" class="validate">
                         <label for="Username1">Username</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text ">
                         <i class="mdi-communication-email prefix"></i>
-                        <input id="Email1" type="text" class="validate">
+                        <input id="Email1" type="text" name="Email1" class="validate">
                         <label for="Emaill">Email</label>
                     </div>
                     <div class="input-field col m10 offset-m1 orange-text ">
                         <i class="mdi-action-lock-open prefix"></i>
-                        <input id="Password1" type="password" class="validate">
+                        <input id="Password1" type="password" name="Password1" class="validate">
                         <label for="Password1">Password</label>
                     </div>
                 </div>

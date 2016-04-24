@@ -75,7 +75,7 @@ $('#send').click(
             }
 
         }).fail(function() {
-            alert(displayError()); 
+            alert('Darn... :/ this recipe couldn\'t be loaded because our servers are busy or down; try again in a few minutes and your request should go through. If not, please contact us and we\'ll investigate the manner!'); 
         });
     }
 );

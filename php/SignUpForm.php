@@ -4,9 +4,9 @@
         $lastname = $_POST['LastName'];
         $username = $_POST['Username1'];
         $email = $_POST['Email1'];
-        $password = $_POST['Password1'];
-        echo $firstname;
+        $password1 = $_POST['Password1'];
         
+        echo $password1;
         
         $user = 'root';
         $password = 'root';
@@ -20,8 +20,14 @@
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }else{
-            echo "stuff";
-            echo $firstname;
+            
+        }
+        $sql = "INSERT INTO SignUp (First_Name, Last_Name, User_Name, Email, Password) VALUES ('$firstname', '$lastname', '$username', '$email', '$password1');";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
         }
 
 
