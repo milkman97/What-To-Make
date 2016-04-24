@@ -2,7 +2,7 @@
     <div class="col s12 m4">
         <div class="card animated slideInUp">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/foodplaceholder.jpeg" id="picplaceholder1" onerror="displayError()">
+                <img class="activator" src="images/foodplaceholder.jpeg" id="picplaceholder1">
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4" id="title1">Hallmark Of Burgers<i class="mdi-navigation-more-vert right"></i></span>

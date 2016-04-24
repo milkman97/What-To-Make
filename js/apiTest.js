@@ -74,6 +74,8 @@ $('#send').click(
                 document.getElementById("rank3").innerHTML = "Social Rankings " + data.recipes[2].social_rank;
             }
 
+        }).fail(function() {
+            alert(displayError()); 
         });
     }
 );
