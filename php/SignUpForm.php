@@ -10,12 +10,12 @@
           
             echo '<script type="text/javascript">
                         alert("Hey one of your input fields was blank, could you please refill out the form so you can be apart of our community?"); 
-                        window.location.href = window.history.go(-1);</script>';
+                        window.location.href = window.history.go(-2);</script>';
         }elseif($firstname === " " || $lastname === " " || username === " " || email === " " || $password1 === " "){
             
             echo '<script type="text/javascript">
                         alert("Hey one of your input fields was blank, could you please refill out the form so you can be apart of our community?"); 
-                        window.location.href = window.history.go(-1);</script>';
+                        window.location.href = window.history.go(-2);</script>';
         }else{
             $password1 = md5($password1);
             
@@ -26,7 +26,7 @@
             if($username === $PossibleUserName){
                 echo '<script type="text/javascript">
                         alert("Hey could you select another username please?"); 
-                        window.location.href = window.history.go(-1);</script>'; 
+                        window.location.href = window.history.go(-2);</script>'; 
             }else{
                 
             $user = 'root';
@@ -51,7 +51,7 @@
            
             echo '<script type="text/javascript">
                         alert("Thank You for your time and enjoy the delicous recipies!"); 
-                        window.location.href = window.history.go(-1);</script>';
+                        window.location.href = window.history.go(-2);</script>';
 
             mysqli_close($conn);
         
