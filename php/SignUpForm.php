@@ -7,18 +7,28 @@
         $password1 = $_POST['Password1'];
         
         if($firstname === "" || $lastname === "" || username === "" || email === "" || $password1 === ""){
-            // once done change redirect link
+          
             echo '<script type="text/javascript">
                         alert("Hey one of your input fields was blank, could you please refill out the form so you can be apart of our community?"); 
-                        window.location.href = "http://localhost:8888/FoodProject/index.php";</script>';
+                        window.location.href = window.history.go(-1);</script>';
         }elseif($firstname === " " || $lastname === " " || username === " " || email === " " || $password1 === " "){
-            // once done change redirect link
+            
             echo '<script type="text/javascript">
                         alert("Hey one of your input fields was blank, could you please refill out the form so you can be apart of our community?"); 
-                        window.location.href = "http://localhost:8888/FoodProject/index.php";</script>';
+                        window.location.href = window.history.go(-1);</script>';
         }else{
             $password1 = md5($password1);
             
+            $PossibleUserName =  mysql_query("SELECT * FROM SignUp WHERE User_Name = '$username'"); 
+            
+            
+            
+            if($username === $PossibleUserName){
+                echo '<script type="text/javascript">
+                        alert("Hey could you select another username please?"); 
+                        window.location.href = window.history.go(-1);</script>'; 
+            }else{
+                
             $user = 'root';
             $password = 'root';
             $db = 'Users';
@@ -38,13 +48,14 @@
             } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
             }
-            // once done change redirect link
+           
             echo '<script type="text/javascript">
                         alert("Thank You for your time and enjoy the delicous recipies!"); 
-                        window.location.href = "http://localhost:8888/FoodProject/index.php";</script>';
+                        window.location.href = window.history.go(-1);</script>';
 
             mysqli_close($conn);
         
+            }
         }
         
     }
