@@ -19,11 +19,11 @@
     <div class="col s12 m4">
         <div class="card animated slideInUp">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/burritoplaceholder.jpg" id="picplaceholder2">
+                <img class="activator" src="images/burittoplaceholderupdate.jpg" id="picplaceholder2">
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4" id="title2">Best Burritos<i class="mdi-navigation-more-vert right"></i></span>
-                <p><a href="http://www.tasteofhome.com/recipes/flavorful-chicken-fajitas" target="_blank" id="linktorecipe2">Make This!</a></p>
+                <p><a href="https://catalinalinkava.wordpress.com/2014/01/11/healthy-dinner-steak-burritos/" target="_blank" id="linktorecipe2">Make This!</a></p>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4" id="title2"><i class="mdi-navigation-close right"></i></span>
@@ -57,11 +57,11 @@
     <div class="col s12 m4">
         <div class="card animated slideInUp">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/foodplaceholder.jpeg" id="picplaceholder4">
+                <img class="activator" src="images/coffeeplaceholder.jpg" id="picplaceholder4">
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4" id="title4">Hallmark Of Burgers<i class="mdi-navigation-more-vert right"></i></span>
-                <p><a href="http://www.foodandwine.com/slideshows/burger-recipes" target="_blank" id="linktorecipe4">Make This!</a></p>
+                <span class="card-title activator grey-text text-darken-4" id="title4">Amazing Iced Coffee<i class="mdi-navigation-more-vert right"></i></span>
+                <p><a href="http://recipes.saladmaster.com/recipe/iced-coffee" target="_blank" id="linktorecipe4">Make This!</a></p>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4" id="title4"><i class="mdi-navigation-close right"></i></span>
@@ -77,7 +77,7 @@
                 <img class="activator" src="images/burritoplaceholder.jpg" id="picplaceholder5">
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4" id="title5">Best Burritos<i class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator grey-text text-darken-4" id="title5">Yummy Fajitas<i class="mdi-navigation-more-vert right"></i></span>
                 <p><a href="http://www.tasteofhome.com/recipes/flavorful-chicken-fajitas" target="_blank" id="linktorecipe5">Make This!</a></p>
             </div>
             <div class="card-reveal">
@@ -91,11 +91,11 @@
     <div class="col s12 m4">
         <div class="card animated slideInUp">
             <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/pizza.jpg" id="picplaceholder6">
+                <img class="activator" src="images/dessertspalceholder.jpg" id="picplaceholder6">
             </div>
             <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4" id="title6">Delicous Pizza<i class="mdi-navigation-more-vert right"></i></span>
-                <p><a href="http://allrecipes.com/recipes/250/main-dish/pizza/" target="_blank" id="linktorecipe6">Make This!</a></p>
+                <span class="card-title activator grey-text text-darken-4" id="title6">Splendid Desserts<i class="mdi-navigation-more-vert right"></i></span>
+                <p><a href="http://riverbluffsliving.com/wilmington-best-places-for-desserts/" target="_blank" id="linktorecipe6">Make This!</a></p>
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4" id="title6"><i class="mdi-navigation-close right"></i></span>
