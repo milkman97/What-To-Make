@@ -12,7 +12,7 @@
                 <form>
                     <div class="row">
 
-                        <h5 id="types" class="animated fadeInDown ">Main Types Of Food</h5>
+                        <h5 id="types" class="animated fadeInDown ">Select The Foods You Have</h5>
                         <div class="col s10 m6 l3 animated fadeInDown">
                             <p>
                                 <input type="checkbox" id="fruit" onclick="HideOrUnhide(this.id,'fruitDiv', 'categories')" />
@@ -196,7 +196,7 @@
             <br>
             <br>
             <div class="container">
-                <h4>Welcome, <?php echo $_SESSION['user_name']; ?> here are some recipes for you:</h4>
+                <h4 class="animated fadeIn">Welcome, here are some recipes for you <?php echo $_SESSION['user_name']; ?>:</h4>
                 <?php include('php/cards.php');?>
             </div>
             <br>
