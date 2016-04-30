@@ -56,7 +56,7 @@
         <h4 class="center-align">Login</h4>
         <div class="center-align">
             <div class="divider"></div>
-            <form class="col s12" >
+            <form class="col s12" action="php/dbconnect.php" method="post">
                 <div class="row center-align">
                     <div class="input-field col m10 offset-m1 orange-text">
                         <i class="mdi-action-account-circle prefix"></i>
@@ -74,10 +74,10 @@
                     </div>
                 </div>
                 <a href="#" class="btn btn-flat white modal-close">Cancel</a>
-                <button class="waves-effect waves-blue blue btn btn-flat modal-action modal-close" type="submit" name="SignUp">Login</button>
+                <button class="waves-effect waves-blue blue btn btn-flat modal-action modal-close" type="submit" name="Login" id="login1">Login</button>
             </form>
             
-            <br>
+            <br><br>
             <h4 class="center-align">Sign Up</h4>
             <div class="divider"></div>
             <form class="col s12" action="php/SignUpForm.php" method="post">

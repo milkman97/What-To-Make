@@ -4,6 +4,7 @@
 
 <body>
     <?php include('php/header.php');?>
+    <?php include('php/dbconnect.php');?>
         <section class="amber lighten-4">
             <br>
             <br>
@@ -195,6 +196,7 @@
             <br>
             <br>
             <div class="container">
+                <h4>Welcome, <?php echo $_SESSION['user_name']; ?> here are some recipes for you:</h4>
                 <?php include('php/cards.php');?>
             </div>
             <br>
