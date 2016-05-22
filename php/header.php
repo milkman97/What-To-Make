@@ -1,5 +1,4 @@
 <head>
-    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -15,13 +14,6 @@
     <div class="nav-wrapper">
         <div class="bar">
             <a href="index.php" class="white-text brand-logo" id="titleText">MakeyMit</a>
-            <!--<form class="hide-on-med-and-down searchBar" action="#">
-                <div class="input-field left " >
-                    <input id="search" type="search" required >
-                    <label for="search"><i class="mdi-action-search"></i></label>
-                    <i class="mdi-navigation-close"></i>
-                </div>
-            </form>-->
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php" class="tooltipped" data-position="bottom" data-delay="3" data-tooltip="Refresh Me"><i class="mdi-navigation-refresh"></i></a></li>
                 <li><a href="#modalLogin" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Login"><i class="mdi-action-perm-identity"></i></a></li>
@@ -36,15 +28,6 @@
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
             <li><a href="#contact" class="modal-trigger"><i class="mdi-communication-phone left"></i>Contact Us</a></li>
             <li><a href="#searchbar" class="modal-trigger"><i class="mdi-action-search left"></i>Search</a></li>
-            <li>
-                <!--<form action="#" >
-                <div class="input-field left tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search">
-                    <input id="search1" type="search" required>
-                    <label  for="search"><i class="black-text mdi-action-search"></i></label>
-                    <i class="mdi-navigation-close"></i>
-                </div>
-            </form>-->
-            </li>
         </ul>
         
         <a href="#" data-activates="nav-mobile" class="white-text button-collapse"><i class="mdi-navigation-menu"></i></a>
