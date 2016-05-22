@@ -110,12 +110,13 @@
     </div>
 </div>
 <div id="searchbar" class="modal">
-    <div class="modal-content">
-        <h4 class="center-align">Search For General Recipies</h4>
+    <div class="modal-content center-align">
+        <h4 class="">Search For General Recipies</h4>
         <div class="input-field col s12">
           <i class="mdi-action-search prefix"></i>
           <input class="searchBar" id="searchStuff" type="text">
         </div>
-        <button href="#" id="SearchStuff" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close push">Search</button><br><br>
+        <a href="#" class="btn btn-flat white modal-close">Cancel</a>
+        <button href="#" id="SearchStuff" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close ">Search</button><br><br>
     </div>
 </div>
