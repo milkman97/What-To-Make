@@ -73,8 +73,6 @@ function cookiefunc(){
         console.log(expires);
         var list = foods.toString();
         document.cookie = "ingredients=" + list + ";" + expires;
-        var x = document.cookie;
-        alert(x);
     }else{
         window.document.cookie = "ingredients=";
     }
