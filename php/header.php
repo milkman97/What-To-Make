@@ -15,18 +15,18 @@
     <div class="nav-wrapper">
         <div class="bar">
             <a href="index.php" class="white-text brand-logo" id="titleText">MakeyMit</a>
-            <form class="hide-on-med-and-down searchBar" action="#">
-                <div class="input-field left tooltipped" data-position="right" data-delay="3" data-tooltip="Search">
-                    <input id="search" type="search" required>
+            <!--<form class="hide-on-med-and-down searchBar" action="#">
+                <div class="input-field left " >
+                    <input id="search" type="search" required >
                     <label for="search"><i class="mdi-action-search"></i></label>
                     <i class="mdi-navigation-close"></i>
                 </div>
-            </form>
+            </form>-->
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.php" class="tooltipped" data-position="bottom" data-delay="3" data-tooltip="Refresh Me"><i class="mdi-navigation-refresh"></i></a></li>
                 <li><a href="#modalLogin" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Login"><i class="mdi-action-perm-identity"></i></a></li>
                 <li><a href="#contact" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Contact Us"><i class="mdi-communication-phone"></i></a></li>
-                
+                <li><a href="#searchbar" class="modal-trigger tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search"><i class="mdi-action-search"></i></a></li>
             </ul>
         </div>
         <!-- Mobile -->
@@ -35,14 +35,15 @@
             <li><a href="index.php"><i class="mdi-navigation-refresh left"></i>Refresh</a></li>
             <li><a href="#modalLogin" class="modal-trigger"><i class="mdi-action-perm-identity left"></i>Login</a></li>
             <li><a href="#contact" class="modal-trigger"><i class="mdi-communication-phone left"></i>Contact Us</a></li>
+            <li><a href="#searchbar" class="modal-trigger"><i class="mdi-action-search left"></i>Search</a></li>
             <li>
-                <form action="#">
+                <!--<form action="#" >
                 <div class="input-field left tooltipped" data-position="bottom" data-delay="3" data-tooltip="Search">
                     <input id="search1" type="search" required>
                     <label  for="search"><i class="black-text mdi-action-search"></i></label>
                     <i class="mdi-navigation-close"></i>
                 </div>
-            </form>
+            </form>-->
             </li>
         </ul>
         
@@ -123,5 +124,15 @@
             <div class="divider"></div>
             <p><a target="_blank" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=makeymit@gmail.com">Email</a></p>
         </div>
+    </div>
+</div>
+<div id="searchbar" class="modal">
+    <div class="modal-content">
+        <h4 class="center-align">Search For General Recipies</h4>
+        <div class="input-field col s12">
+          <i class="mdi-action-search prefix"></i>
+          <input class="searchBar" id="searchStuff" type="text">
+        </div>
+        <button href="#" id="SearchStuff" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close push">Search</button><br><br>
     </div>
 </div>

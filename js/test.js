@@ -64,3 +64,19 @@ function lookForSpaces(id){
 }
 
 $('.modal-trigger').leanModal();
+
+function cookiefunc(){
+    if(document.cookie.indexOf("ingredients") > -1 ){
+        var d = new Date();
+        d.setTime(d.getTime() + (10*24*60*60*1000));
+        var expires = "expires="+ d.toUTCString();
+        console.log(expires);
+        var list = foods.toString();
+        document.cookie = "ingredients=" + list + ";" + expires;
+        var x = document.cookie;
+        alert(x);
+    }else{
+        window.document.cookie = "ingredients=";
+    }
+}
+

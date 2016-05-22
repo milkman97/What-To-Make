@@ -1,6 +1,20 @@
-.searchBar{
-    margin-left: 500px;
-    width: 1000px;
+.push{
+    margin-left: 260px;
+}
+@media screen and (max-width: 890px) {
+    .push{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 640px) {
+    .push{
+        margin-left: 170px;
+    }
+}
+@media screen and (max-width: 639px) {
+    .push{
+        margin-left: 0px;
+    }
 }
 #types{
     font-size: 17px;

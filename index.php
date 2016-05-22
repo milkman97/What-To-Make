@@ -187,7 +187,7 @@
                         </div>
                     </div>
                 </form>
-                <a class="btn-floating btn-large waves-effect waves-light right animated zoomIn orange accent-3"><i class="mdi-content-send" id="send"></i></a>
+                <button class="btn-floating btn-large waves-effect waves-light right animated zoomIn orange accent-3" onclick="cookiefunc()"><i class="mdi-content-send" id="send" ></i></button>
             </div>
             <br>
         </section>

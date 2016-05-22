@@ -9,7 +9,7 @@ session_start();
             
         $servername = "mysql5.000webhost.com";
         $username = "a8454464_test";
-        
+        $password = "dogdog97";
         $dbname = "a8454464_test";
 
            
@@ -28,6 +28,17 @@ session_start();
                if($items_found>0){
                     
                     $_SESSION['user_name'] = $username2;
+                   $ingridentslist = $_COOKIE['ingredients'];
+                  
+                   
+                   $sql1 = "UPDATE SignUp SET Ingredients='$ingridentslist' WHERE User_Name='$username2'";
+                   
+                   $retval = mysqli_query($conn, $sql1);
+                   
+                   if(! $retval )
+                   {
+                        die('Could not update data: ' . mysql_error());
+                   }
                     
                     header ("Location: /index.php");
                 }else{
@@ -37,4 +48,4 @@ session_start();
                }
 
       }
-?>		
+?>
