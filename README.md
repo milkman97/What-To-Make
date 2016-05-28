@@ -2,6 +2,8 @@
 
 https://makeyit.herokuapp.com/
 
+http://vang.comze.com/
+
 Synopsis
 
 In short, this project has a user select a bunch of different foods to send to a database and then retrieves some recipies that they can try to make at home.
