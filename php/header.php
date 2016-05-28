@@ -120,3 +120,13 @@
         <button href="#" id="SearchStuff" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close ">Search</button><br><br>
     </div>
 </div>
+<!-- Modal Structure -->
+  <div id="ErrorModal" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Error</h4>
+      <p>Darn... :/ this recipe couldn\'t be loaded because our servers are busy or down; try again in a few minutes and your request should go through. If not, please contact us and we\'ll investigate the manner!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+    </div>
+  </div>
