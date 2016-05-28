@@ -15,7 +15,7 @@ $('#send').click(
         var url = "http://crossorigin.me/http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + list;
         $.getJSON(url, function (data) {
             if (data.recipes.length === 0) {
-
+                $('#ErrorModal2').openModal();
             } else if (data.recipes.length === 1) {
                 document.getElementById("title1").innerHTML = data.recipes[0].title;
 
@@ -201,7 +201,7 @@ $('#SearchStuff').click(function () {
         
         $.getJSON(url, function (data) {
            if (data.recipes.length === 0) {
-
+               $('#ErrorModal2').openModal();
             } else if (data.recipes.length === 1) {
                 document.getElementById("title1").innerHTML = data.recipes[0].title;
 

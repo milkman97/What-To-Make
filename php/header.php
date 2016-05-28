@@ -124,7 +124,16 @@
   <div id="ErrorModal" class="modal bottom-sheet">
     <div class="modal-content">
       <h4>Error</h4>
-      <p>Darn... :/ this recipe couldn\'t be loaded because our servers are busy or down; try again in a few minutes and your request should go through. If not, please contact us and we\'ll investigate the manner!</p>
+      <p>Darn... :/ this recipe couldn't be loaded because our servers are busy or down; try again in a few minutes and your request should go through. If not, please contact us and we'll investigate the manner!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
+    </div>
+  </div>
+<div id="ErrorModal2" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Error</h4>
+      <p>We're sorry, but we couldn't find any recipies :( We are always adding new recipies to our site, so if we don't have it today, we might have it soon!</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Okay</a>
