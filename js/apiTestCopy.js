@@ -12,7 +12,8 @@ $('#send').click(
         if (list == " ") {
             list = "";
         }
-        var url = "http://cors.io/?u=http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + list;
+        var url = "https://crossorigin.me/http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + list;
+        console.log(url);
         $.getJSON(url, function (data) {
             if (data.recipes.length === 0) {
                 $('#ErrorModal2').openModal();
@@ -197,7 +198,7 @@ $('#SearchStuff').click(function () {
         
         var listsearch = lookForSpaces(listsearch);
         
-        var url = "http://cors.io/?u=http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + listsearch;
+        var url = "https://crossorigin.me/http://food2fork.com/api/search?key=315107456e4b02d7abecd295c694c6e6&q=" + listsearch;
         
         $.getJSON(url, function (data) {
            if (data.recipes.length === 0) {

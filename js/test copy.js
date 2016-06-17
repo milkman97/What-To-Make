@@ -45,6 +45,7 @@ function addItemToArray(id){
         
         //string to push to api call
         var stuff = foods.toString(); 
+         
         
     }
     if(!boxs.checked) {
@@ -76,5 +77,4 @@ function cookiefunc(){
         window.document.cookie = "ingredients=";
     }
 }
-
 
